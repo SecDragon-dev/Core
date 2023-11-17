@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.github.ardoco.core</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.30.0</version>
+    </parent>
+
+    <url>https://github.com/SecDragon-dev/Core</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <developers>
+    <developer>
+        <id>Hossiphi</id>
+        <name>Sophie Corallo</name>
+        <email>sophie.schulz@kit.edu</email>
+        <url>https://mcse.kastel.kit.edu/staff_sophie_schulz.php</url>
+        <organization>KASTEL</organization>
+        <organizationUrl>https://mcse.kastel.kit.edu/</organizationUrl>
+        <timezone>GMT+1</timezone>
+    </developer>
+    </developers>
+
+    <artifactId>core</artifactId>
+    <groupId>edu.kit.kastel.mcse.secdragon</groupId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>SecDragon</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>mavenCentral</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+        <repository>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>mavenSnapshot</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+
+    </repositories>
+
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-kotlin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-test-junit5</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.ardoco.core</groupId>
+            <artifactId>pipeline-tlr</artifactId>
+            <version>${ardoco.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
