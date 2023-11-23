@@ -8,14 +8,12 @@
   </parent>
 
   <artifactId>dataset-extraction</artifactId>
-
-  <dependencies>
-    <dependency>
-      <groupId>edu.kit.kastel.mcse.secdragon</groupId>
-      <artifactId>common</artifactId>
-      <version>${revision}</version>
-    </dependency>
-
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>edu.kit.kastel.mcse.secdragon</groupId>
+            <artifactId>common</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
 
 </project>

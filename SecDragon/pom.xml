@@ -39,6 +39,7 @@
     <module>common</module>
     <module>pipeline</module>
     <module>stages</module>
+      <module>tests</module>
   </modules>
 
   <properties>
