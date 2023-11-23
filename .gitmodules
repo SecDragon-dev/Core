@@ -1,0 +1,3 @@
+[submodule "SecDragon/tests/src/test/resources/riaz-dataset"]
+	path = SecDragon/tests/src/test/resources/riaz-dataset
+	url = ../riaz-dataset
