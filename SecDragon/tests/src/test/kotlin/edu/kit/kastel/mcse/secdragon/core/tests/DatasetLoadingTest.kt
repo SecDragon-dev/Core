@@ -22,7 +22,7 @@ class DatasetLoadingTest {
     fun test()  {
 
         val datasetExtractor = DatasetExtractor()
-        val dataset = datasetExtractor.extract("/riaz/"+nursing)
+        val dataset = datasetExtractor.extract("/riaz-dataset/"+nursing)
         println("" + dataset)
     }
 }
